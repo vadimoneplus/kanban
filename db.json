@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "ivan@mail.com",
+      "password": "$2a$10$3EIug5Nh4.xFJcwlXcGPCeklmdp7EfjsQcAAN3.PIEZ2EsKjwnjoa",
+      "username": "ivan"
+    },
+    {
+      "id": 2,
+      "email": "jibuti@mail.com",
+      "password": "$2a$10$3EIug5Nh4.xFJcwlXcGPCeklmdp7EfjsQcAAN3.PIEZ2EsKjwnjob",
+      "username": "jibuti"
+    }
+  ],
+  "boards": [
+    {
+      "id": 22486,
+      "title": "Best board 1",
+      "columns": [
+        {
+          "id": 1925,
+          "title": "Todo",
+          "color": "somecolor"
+        },
+        {
+          "id": 1926,
+          "title": "Done",
+          "color": "somecolor"
+        }
+      ]
+    },
+    {
+      "id": 22487,
+      "title": "Best board 2",
+      "columns": [
+        {
+          "id": 1927,
+          "title": "Todo2",
+          "color": "somecolor"
+        },
+        {
+          "id": 1928,
+          "title": "Done2",
+          "color": "somecolor"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "text": "ANOTHER TASK1",
+      "description": "123123123",
+      "date": "",
+      "time": "",
+      "boardId": 22486,
+      "columnId": 1925,
+      "responsibleUser": "usersmuzer"
+    },
+    {
+      "id": 2,
+      "text": "ANOTHER TASK2",
+      "description": "123123123",
+      "date": "",
+      "time": "",
+      "boardId": 22486,
+      "columnId": 1926,
+      "responsibleUser": "usersmuzer"
+    }
+  ]
+}

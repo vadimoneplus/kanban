@@ -1,0 +1,52 @@
+.switch {
+  display: inline-block;
+  width: 5rem;
+  height: 2.5rem;
+  position: relative;
+
+  & input {
+    width: 0;
+    height: 0;
+    opacity: 1;
+
+    &:checked+.move {
+        background-color: #444;
+      }
+    &:checked+.move::before {
+      transform: translateX(2.5rem);
+    }
+  }
+
+  & .move {
+    position: absolute;
+    background: var(--colorViolet-3);
+    border-radius: 2.5rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: .3s;
+    cursor: pointer;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: .2rem;
+      left: 0.25rem;
+      bottom: 0;
+      width: 2rem;
+      height: 2rem;
+      background: var(--colorWhite-1);
+      border-radius: 5rem;
+      // box-shadow: 0 0.2rem 0.5rem #000;
+      transition: .5s;
+    }
+  }
+
+
+
+
+
+
+
+}

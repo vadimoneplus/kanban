@@ -1,0 +1,40 @@
+.header {
+  width: calc(100% - 15%);
+  height: 6rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 15%;
+  overflow-y: hidden;
+  border-bottom: 0.1rem solid var(--colorViolet-2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & .boxBtn {
+    display: flex;
+    gap: 1rem;
+
+    & .addBtn {
+      font-size: var(--small-sz);
+      background: var(--colorViolet-3);
+      color: var(--colorWhite-2);
+      border-radius: 5rem;
+      padding: 0.5rem 1rem;
+      &:hover{
+        background: var(--colorViolet-2);
+      }
+    }
+
+    & .dotsBtn {
+      width: 3rem;
+      color: var(--colorViolet-3);
+      border-radius: 10rem;
+      padding-top: .4rem;
+      background: var(--colorWhite-1);
+      &:hover{
+        background: var(--colorWhite-2);
+      }
+    }
+  }
+}
